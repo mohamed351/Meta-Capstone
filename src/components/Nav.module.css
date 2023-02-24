@@ -1,0 +1,22 @@
+.nav_bar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+    
+
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: #495E57;
+    font-weight: bold;
+    padding: 5px;
+}
+.nav_bar ul li a:hover{
+    background-color:#495E57 ;
+    border-radius: 5px;
+    color:#fff
+}
+.nav_bar{
+    width: 35%;
+}

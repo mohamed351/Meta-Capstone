@@ -1,9 +1,16 @@
+import styles from "./Nav.module.css";
 export default function Nav(){
-    return(<nav>
-            <ul>
-                <li><a href="#" >Home</a></li>
-                <li><a href="#" >About</a></li>
-                <li><a href="#">Contact </a></li>
+    return(<nav className={styles.nav_bar}>
+             <ul>
+                <li>
+                <a href="/">Home</a>
+                </li>
+                <li>
+                <a href="/">Menu</a>
+                </li>
+                <li>
+                <a href="/Reserve-table">Reserve a Table</a>
+                </li>
             </ul>
         </nav>)
 }
