@@ -59,10 +59,11 @@ export default function BookingForm() {
           flexDirection: "column",
         }}
       >
+        <h2 style={{textAlign:"center"}}>Booking form</h2>
         <label htmlFor="res-date">Choose date</label>
         <input required onChange={handleDateChange} type="date" id="res-date" />
         <label htmlFor="res-time">Choose time</label>
-        <select
+        <select 
           onChange={(e) => setForm({ ...form, timeChoosen: e.target.value })}
           required
           id="res-time "
@@ -71,6 +72,7 @@ export default function BookingForm() {
             <option key={time}>{time}</option>
           ))}
         </select>
+         
         <label htmlFor="guests">Number of guests</label>
         <input
           onChange={(e) => setForm({ ...form, guests: e.target.value })}
