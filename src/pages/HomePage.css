@@ -1,0 +1,31 @@
+.head-section {
+    background-color: rgba(73, 94, 87, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20em;
+  }
+  section img {
+    height: inherit;
+    object-fit: cover;
+  }
+  
+  article {
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    width: 500px;
+  }
+  article h2{
+      font-family: 'Josefin Sans', sans-serif;
+      color: #f4ce14;
+  }
+  article p {
+    font-family: monospace;
+  }
+  .image {
+    height: inherit;
+  }
+  .text-center{
+    text-align: center;
+  }
